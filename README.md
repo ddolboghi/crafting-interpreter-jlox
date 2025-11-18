@@ -2,9 +2,15 @@
 
 이 프로젝트는 책 'Crafting Interpreter/로버스 나이스트롬'의 Java interpreter 구현 실습입니다.
 
+[공식 GitHub](https://github.com/munificent/craftinginterpreters)
+
+[원서의 웹 문서 버전](https://craftinginterpreters.com/contents.html)
+
 책에서는 lox라는 언어를 만듭니다.
 
 - `null`처럼 값이 없음을 나타내는 데이터 타입으로 `nil`을 사용합니다.
+- 모든 숫자는 런타임에 부동 소수점입니다.
+- 선행 소수점이나 후행 소수점을 허용하지 않습니다.
 - lox에는 비트 연산자, 시프트 연산자, 모듈로 연산자, 조건부 연산자가 없습니다.
 - `print`를 코어 라이브러리 함수로 만드는 대신, 언어에 내장시켰습니다.(저자는 함수 호출 구현을 개발할때 유리하다고 합니다)
 - 함수, 클래스를 first-class(일급)로 취급합니다.
