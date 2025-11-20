@@ -128,10 +128,9 @@ class Scanner {
                 } else if (isAlpha(c)) {
                     identifier();
                 } else {
-                    Lox.error(line, "Unexpected character.");
+                    // lox에서 안쓰는 문자라면 에러 발생시킴(lexical error)
+                    Lox.error(line, "Unexpected character. <-- this is a lexical error!");
                 }
-                // lox에서 안쓰는 문자라면 에러 발생시킴(lexical error)
-                Lox.error(line, "Unexpected character. <-- this is a lexical error!");
                 break;
         }
     }
