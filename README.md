@@ -26,3 +26,8 @@
 - 비트 연산자, 시프트 연산자, 모듈로 연산자, 조건부 연산자 구현
 - for-in 루프 구현(66p)
 - 에러 처리: interactive debugger, static analyzer
+
+# .java 파일 실행 방법
+
+1. `gradlew.bat build`로 빌드
+2. `java -cp app/build/classes/java/main <모듈명>.<클래스명> <인자>`
