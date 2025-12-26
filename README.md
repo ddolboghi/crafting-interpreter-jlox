@@ -31,3 +31,4 @@
 
 1. `gradlew.bat build`로 빌드
 2. `java -cp app/build/classes/java/main <모듈명>.<클래스명> <인자>`
+    e.g. `java -cp app/build/classes/java/main jlox.Lox`
